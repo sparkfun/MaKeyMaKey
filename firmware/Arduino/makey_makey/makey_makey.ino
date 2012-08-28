@@ -531,7 +531,7 @@ void cycleLEDs() {
 
   if ((ledCycleCounter == 0) && inputs[0].pressed) {
     pinMode(inputLED_a, INPUT);
-    digitalWrite(inputLED_a, HIGH);
+    digitalWrite(inputLED_a, LOW);
     pinMode(inputLED_b, OUTPUT);
     digitalWrite(inputLED_b, HIGH);
     pinMode(inputLED_c, OUTPUT);
@@ -594,7 +594,7 @@ void danceLeds()
   {
     // UP
     pinMode(inputLED_a, INPUT);
-    digitalWrite(inputLED_a, HIGH);
+    digitalWrite(inputLED_a, LOW);
     pinMode(inputLED_b, OUTPUT);
     digitalWrite(inputLED_b, HIGH);
     pinMode(inputLED_c, OUTPUT);
