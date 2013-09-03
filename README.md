@@ -12,6 +12,7 @@ Repository Contents
 -------------------
 * **/Firmware** - Example firmware files
 * **/Hardware** - All Eagle design files (.brd, .sch)
+* **/Production** - Test bed files and production panel files
 
 Product Versions
 ----------------
