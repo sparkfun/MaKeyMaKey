@@ -28,7 +28,9 @@ This kit contains everything found in the standard kit and comes in retail-ready
 
 License Information
 -------------------
+The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+The code is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
 
-The hardware is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).  
-All other code is open source hardware so please feel free to do anything you want with it; 
-you buy me a beer if you use this and we meet someday ([Beerware license](http://en.wikipedia.org/wiki/Beerware)).
+Distributed as-is; no warranty is given.
+
+->The MaKey MaKey is a collaboration with JAy Silver and Eric Rosenbaum. You can find more information about them [here](http://www.makeymakey.com/).<-
