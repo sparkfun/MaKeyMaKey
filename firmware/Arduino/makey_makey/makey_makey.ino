@@ -84,7 +84,7 @@ int mouseHoldCount[NUM_INPUTS]; // used to store mouse movement hold data
 // input pin numbers for kickstarter production board
 int pinNumbers[NUM_INPUTS] = {
   12, 8, 13, 15, 7, 6,     // top of makey makey board
-  5, 4, 3, 2, 1, 0,        // left side of female header, KEBYBOARD
+  5, 4, 3, 2, 1, 0,        // left side of female header, KEYBOARD
   23, 22, 21, 20, 19, 18   // right side of female header, MOUSE
 };
 
