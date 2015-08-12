@@ -10240,7 +10240,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="R22" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="330"/>
 <part name="P+8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD-W" value="500mA"/>
-<part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER-OLD" device="TRACE" value="Pull-ups"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M06" device="SMD-STRAIGHT-COMBO"/>
@@ -10267,7 +10266,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <sheets>
 <sheet>
 <plain>
-<text x="241.3" y="7.62" size="2.54" layer="94">1.3</text>
+<text x="241.3" y="7.62" size="2.54" layer="94">1.4</text>
 <text x="170.942" y="6.35" size="1.778" layer="94">Jim Lindblom, Jay Silver, Eric Rosenbaum</text>
 <text x="219.71" y="37.592" size="1.778" layer="97">maKeymaKey.com</text>
 <wire x1="232.918" y1="167.64" x2="234.696" y2="167.64" width="1.27" layer="94"/>
@@ -11418,38 +11417,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <wire x1="58.42" y1="73.66" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-</nets>
-</sheet>
-<sheet>
-<plain>
-<text x="2.54" y="180.34" size="3.048" layer="97">v11 ChangeLog:</text>
-<text x="7.62" y="170.18" size="3.048" layer="97">BOM Additions:</text>
-<text x="12.7" y="165.1" size="3.048" layer="97">F1 - 500mA SMD PTC on the USB VBUS</text>
-<text x="12.7" y="160.02" size="3.048" layer="97">Added OSHW logo (Large)</text>
-<text x="7.62" y="175.26" size="3.048" layer="97">ATTN: Renamed all components!</text>
-<text x="12.7" y="154.94" size="3.048" layer="97">Added R20, R21, R22 - 330 current limiting resistors</text>
-<text x="12.7" y="149.86" size="3.048" layer="97">Added LED1, LED2, LED3, LED4, LED5, LED6 - bottom-entry 1206 LEDs</text>
-<text x="7.62" y="129.54" size="3.048" layer="97">BOM Removals:</text>
-<text x="12.7" y="124.46" size="3.048" layer="97">0603 stat indicator LED</text>
-<text x="7.62" y="104.14" size="3.048" layer="97">Increased board size by about 25%</text>
-<text x="7.62" y="99.06" size="3.048" layer="97">New silk art</text>
-<text x="7.62" y="88.9" size="3.048" layer="97">Netlist massively changed</text>
-<text x="12.7" y="119.38" size="3.048" layer="97">Removed two 10-pin SMD female headers</text>
-<text x="12.7" y="144.78" size="3.048" layer="97">Added J1, J4 - 8-pin SMD female header</text>
-<text x="12.7" y="139.7" size="3.048" layer="97">Added J2, J3 - 4-pin SMD female header</text>
-<text x="7.62" y="83.82" size="3.048" layer="97">ATmega32U4 changed from a QFN-44 package to TQFP-44</text>
-<text x="7.62" y="93.98" size="3.048" layer="97">New unmasked polygons for U/D/L/R/CLICK/SPACE Keys</text>
-<text x="12.7" y="134.62" size="3.048" layer="97">mini-B USB connector</text>
-<text x="12.7" y="114.3" size="3.048" layer="97">micro-B USB connector</text>
-<text x="12.7" y="109.22" size="3.048" layer="97">removed SPDT switch</text>
-</plain>
-<instances>
-<instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="FRAME2" gate="G$2" x="147.32" y="0"/>
-</instances>
-<busses>
-</busses>
-<nets>
 </nets>
 </sheet>
 </sheets>
