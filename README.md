@@ -34,3 +34,5 @@ The code is beerware; if you see me (or any other SparkFun employee) at the loca
 Distributed as-is; no warranty is given.
 
 ->The MaKey MaKey is a collaboration with JAy Silver and Eric Rosenbaum. You can find more information about them [here](http://www.makeymakey.com/).<-
+
+Makey Makey is a registered trademark of JoyLabz LLC. 
