@@ -45,6 +45,8 @@
 #define MOUSE_MOVE_LEFT     -3
 #define MOUSE_MOVE_RIGHT    -4
 
+#include <Keyboard.h>
+#include <Mouse.h>
 #include "settings.h"
 
 /////////////////////////
