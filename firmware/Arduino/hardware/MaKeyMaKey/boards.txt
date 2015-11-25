@@ -1,22 +1,44 @@
-##############################################################
+# Spark Board Contribution Configuration
+#
+# For more information see:
+# * https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# * https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#
 
-makeymakey.name=MaKey MaKey
+menu.cpu=Processor
+
+################################################################################
+#################################### MaKey MaKey ###############################
+################################################################################
+makeymakey.name=SparkFun MaKey MaKey
+makeymakey.build.board=AVR_MAKEYMAKEY
+makeymakey.build.vid.0=0x1B4F
+makeymakey.build.pid.0=0x2B74
+makeymakey.build.vid.1=0x1B4F
+makeymakey.build.pid.1=0x2B75
+
+makeymakey.upload.tool=arduino:avrdude
 makeymakey.upload.protocol=avr109
 makeymakey.upload.maximum_size=28672
 makeymakey.upload.speed=57600
 makeymakey.upload.disable_flushing=true
-makeymakey.bootloader.low_fuses=0xff
-makeymakey.bootloader.high_fuses=0xd8
-makeymakey.bootloader.extended_fuses=0xcb
-makeymakey.bootloader.path=caterina
-makeymakey.bootloader.file=Caterina-makeymakey.hex
+makeymakey.upload.use_1200bps_touch=true
+makeymakey.upload.wait_for_upload_port=true
+
+makeymakey.bootloader.low_fuses=0xFF
+makeymakey.bootloader.high_fuses=0xD8
+makeymakey.bootloader.extended_fuses=0xF8
+makeymakey.bootloader.file=caterina/Caterina-makey.hex
 makeymakey.bootloader.unlock_bits=0x3F
 makeymakey.bootloader.lock_bits=0x2F
+makeymakey.bootloader.tool=arduino:avrdude
+
 makeymakey.build.mcu=atmega32u4
 makeymakey.build.f_cpu=16000000L
 makeymakey.build.vid=0x1B4F
 makeymakey.build.pid=0x2B75
-makeymakey.build.core=arduino
-makeymakey.build.variant=MaKeyMaKey
-
-##############################################################
+makeymakey.build.usb_product="SparkFun MaKey MaKey"
+makeymakey.build.core=arduino:arduino
+makeymakey.build.variant=promicro
+makeymakey.build.extra_flags={build.usb_flags}
+makeymakey.build.usb_manufacturer="SparkFun Electronics"
