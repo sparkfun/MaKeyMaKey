@@ -45,8 +45,10 @@
 #define MOUSE_MOVE_LEFT     -3
 #define MOUSE_MOVE_RIGHT    -4
 
-#include <Keyboard.h>
-#include <Mouse.h>
+#if (ARDUINO > 10605)
+  #include <Keyboard.h>
+  #include <Mouse.h>
+#endif
 #include "settings.h"
 
 /////////////////////////
