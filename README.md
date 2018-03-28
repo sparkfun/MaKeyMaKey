@@ -1,3 +1,7 @@
+**Note: Retired Product** This product has been retired from our catalog and is no longer for sale. This page is made available for those looking for datasheets and the simply curious. For the latest board, check out the [Makey Makey Classic by JoyLabz](https://www.sparkfun.com/products/14478).
+
+---
+
 MaKey MaKey
 ===========
 
@@ -17,13 +21,13 @@ Repository Contents
 Product Versions
 ----------------
 
-**[WIG-11511](https://www.sparkfun.com/products/11511) - Standard kit, OEM packaging**  
+**[WIG-11511 (Retired)](https://www.sparkfun.com/products/11511) - Standard kit, OEM packaging**  
 The standard kit includes the MaKey MaKey HID board, alligator clips, jumper wires, and a Mini-USB cable in OEM packaging.
 
-**[WIG-11519](https://www.sparkfun.com/products/11519) - Deluxe kit, OEM packaging**  
+**[WIG-11519 (Retired)](https://www.sparkfun.com/products/11519) - Deluxe kit, OEM packaging**  
 The deluxe kit includes everything found in the standard kit along with an additional pack of alligator clips and a roll of copper wire (all in OEM packaging).
 
-**[RTL-11437](https://www.sparkfun.com/products/11437) - Standard kit, retail packaging**  
+**[RTL-11437 (Retired)](https://www.sparkfun.com/products/11437) - Standard kit, retail packaging**  
 This kit contains everything found in the standard kit and comes in retail-ready plastic packaging.
 
 License Information
