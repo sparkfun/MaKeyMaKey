@@ -1,4 +1,7 @@
-**Note: Retired Product** This product has been retired from our catalog and is no longer for sale. This page is made available for those looking for datasheets and the simply curious. For the latest board, check out the [Makey Makey Classic by JoyLabz](https://www.sparkfun.com/products/14478).
+**Note: Retired Product**
+===========
+
+This product has been retired from our catalog and is no longer for sale. This page is made available for those looking for datasheets and the simply curious. For the latest version of the board manufactured by JoyLabz, check out the [Makey Makey Classic by JoyLabz](https://www.sparkfun.com/products/14478).
 
 ---
 
@@ -17,6 +20,11 @@ Repository Contents
 * **/Firmware** - Example firmware files
 * **/Hardware** - All Eagle design files (.brd, .sch)
 * **/Production** - Test bed files and production panel files
+
+Documentation
+--------------
+* **[Makey Makey Quickstart Guide](https://learn.sparkfun.com/tutorials/makey-makey-quickstart-guide)** - Basic hookup guide for the Makey Makey.
+* **[Makey Makey Advanced Guide](https://learn.sparkfun.com/tutorials/makey-makey-advanced-guide)** - Advanced hookup guide for the Makey Makey.
 
 Product Versions
 ----------------
